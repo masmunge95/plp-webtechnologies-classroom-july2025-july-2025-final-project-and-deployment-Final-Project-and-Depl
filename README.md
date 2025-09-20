@@ -36,7 +36,7 @@ You only need a modern web browser to run this project.
 Clone the repository:
 
 ```bash
-git clone [YOUR_GITHUB_REPO_LINK_HERE]
+git clone https://github.com/masmunge95/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
 ```
 
 Navigate to the project directory:
@@ -64,8 +64,8 @@ Simply open the `index.html` file in your preferred web browser.
 ---
 
 ## 🔗 Deployment & Repository
-- **Deployment Link**: [YOUR_LIVE_DEMO_LINK_HERE]  
-- **GitHub Repository**: [YOUR_GITHUB_REPO_LINK_HERE]  
+- **Deployment Link**: https://masmunge95.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/  
+- **GitHub Repository**: https://github.com/masmunge95/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git  
 
 ---
 
