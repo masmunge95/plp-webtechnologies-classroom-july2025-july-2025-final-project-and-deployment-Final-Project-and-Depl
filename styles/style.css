@@ -1,4 +1,7 @@
 /* ======================= Global Styling ======================= */
+html {
+    scroll-padding-top: 150px; /* Adjust this value as needed */
+}
 * { 
     margin: 0; 
     padding: 0; 
@@ -387,7 +390,7 @@ footer {
     }
     .hero {
         height: 60vh;
-        margin-top: 22vh;
+        margin-top: 50px;
     }
     .hero h2 {
         font-size: 2rem;
