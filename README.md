@@ -39,7 +39,7 @@ Clone the repository:
 git clone https://github.com/masmunge95/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
 ```
 
-Navigate to the project directory:
+Navigate to your project directory, e.g.:
 
 ```bash
 cd car-rentals
