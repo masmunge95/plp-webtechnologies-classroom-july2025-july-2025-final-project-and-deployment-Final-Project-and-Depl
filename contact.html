@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & FAQ | Car Rentals</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="assets/car-rentals-high-resolution-logo-transparent.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar-main">
+            <div class="logo">
+                <img src="assets/car-rentals-high-resolution-logo-transparent.png" alt="Car Rentals Logo" height="70">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a>
+                    <div class="dropdown-menu">
+                        <div class="header-column">
+                            <ul class="nav-links">
+                                <li><a href="index.html#home">Welcome</a></li>
+                                <li><a href="index.html#testimonials">Why Choose Us</a></li>
+                                <li><a href="index.html#get-started">Get Started</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <li><a href="#">About</a>
+                    <div class="dropdown-menu">
+                        <div class="header-column">
+                            <ul class="nav-links">
+                                <li><a href="about.html#home">Who We Are</a></li>
+                                <li><a href="about.html#company-services">Why We Stand Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Services</a>
+                    <div class="dropdown-menu">
+                        <div class="header-column">
+                            <ul class="nav-links">
+                                <li><a href="services.html#home">Our Services</a></li>
+                                <li><a href="services.html#service-features">What To Expect</a></li>
+                                <li><a href="services.html#featured-vehicles">Our Catalog</a></li>
+                                <li><a href="services.html#pricing">Pricing Plans</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Contact</a>
+                    <div class="dropdown-menu">
+                        <div class="header-column">
+                            <ul class="nav-links">
+                                <li><a href="contact.html#home">Contact Information</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Support & FAQs</a>
+                    <div class="dropdown-menu">
+                        <div class="header-column">
+                            <ul class="nav-links">
+                                <li><a href="support.html#support-faq">Frequently Asked Questions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <h2>Try our services today!</h2>
+            <p>
+                Looking to rent a car, or just curious about our services?
+                Feel free to reach out to us at any time.
+                You can contact us through our contact form or via the details below.
+            </p>
+        </section>
+        <section id="contact-us" class="card">
+            <h2>Contact Information</h2>
+            <p>If you're looking to rent a vehicle, you can reach us at:</p>
+            <ul>
+                <li>Email: info@carrentals.com</li>
+                <li>Phone: +254 111 222 333</li>
+                <li>Address: Unnamed Road, Nairobi, Kenya</li> 
+            </ul>
+        </section>
+        <section id="form-section" class="card">
+            <h2>Get in Touch</h2>
+            <p>For general queries, kindly fill out the form below:</p>
+            <form novalidate>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+                <div class="error-message" id="name-error"></div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="e.g. john@example.com" required>
+                <div class="error-message" id="email-error"></div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Share with us your problems here..." required></textarea>
+                <div class="error-message" id="message-error"></div>
+                <button id="submit">Send Message</button>
+                <div id ="success-message"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Car Rentals. All rights reserved.</p>
+    </footer>
+    <script src="scripts/forms.js"></script>
+    <script src="scripts/nav.js"></script>
+</body>
+</html>

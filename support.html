@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & FAQ | Car Rentals</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="assets/car-rentals-high-resolution-logo-transparent.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar-main">
+            <div class="logo">
+                <img src="assets/car-rentals-high-resolution-logo-transparent.png" alt="Car Rentals Logo" height="70">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a>
+                    <div class="dropdown-menu">
+                        <div class="header-column">
+                            <ul class="nav-links">
+                                <li><a href="index.html#home">Welcome</a></li>
+                                <li><a href="index.html#testimonials">Why Choose Us</a></li>
+                                <li><a href="index.html#get-started">Get Started</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <li><a href="#">About</a>
+                    <div class="dropdown-menu">
+                        <div class="header-column">
+                            <ul class="nav-links">
+                                <li><a href="about.html#home">Who We Are</a></li>
+                                <li><a href="about.html#company-services">Why We Stand Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Services</a>
+                    <div class="dropdown-menu">
+                        <div class="header-column">
+                            <ul class="nav-links">
+                                <li><a href="services.html#home">Our Services</a></li>
+                                <li><a href="services.html#service-features">What To Expect</a></li>
+                                <li><a href="services.html#featured-vehicles">Our Catalog</a></li>
+                                <li><a href="services.html#pricing">Pricing Plans</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Contact</a>
+                    <div class="dropdown-menu">
+                        <div class="header-column">
+                            <ul class="nav-links">
+                                <li><a href="contact.html#home">Contact Information</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Support & FAQs</a>
+                    <div class="dropdown-menu">
+                        <div class="header-column">
+                            <ul class="nav-links">
+                                <li><a href="support.html#support-faq">Frequently Asked Questions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <h2>Support</h2>
+            <p>
+                Have questions about your car rental experience or need assistance? 
+                Below are some of the most frequently asked questions we receive,
+                check and see if your concern is mentioned below.
+            </p>
+        </section>
+        <section id="support-faqs">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do I book a car?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>You can book a car online through our website or contact our support team for assistance.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What documents do I need to rent a car?</h3>
+                </div>
+                <div class="faq-answer">    
+                    <p>You need a valid driver's license and a credit card for payment and security deposit.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">    
+                    <h3>Can I modify or cancel my booking?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, you can modify or cancel your booking by contacting our support team or through your online account.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Is there an age requirement for renting a car?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, renters must be at least 21 years old. Some vehicle categories may require a higher minimum age.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you offer airport pickup and drop-off?</h3>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, we provide airport pickup and drop-off services. Please specify your requirements during booking.</p>
+                </div>
+            </div>
+        </section>
+        <section id="support-contact">
+            <h2>Reach Out To Us!</h2>
+            <p>Still have unanswered questions? We get it, some questions are best answered in person.
+                We are always happy to settle all your concerns,
+                so feel free to contact us at any time.
+            </p>
+            <ul>
+                <li>Email: info@carrentals.com</li>
+                <li>Phone: +254 111 222 333</li>
+                <li>Address: Unnamed Road, Nairobi, Kenya</li>
+            </ul>
+        </section>
+        <section id="form-section" class="card">
+            <p>You can also reach us through our contact form if that's what you prefer. 
+                Click the button below to access the form.</p>
+            <div class="btn-group">
+                <button id="show-form-btn" class="btn">Contact Us</button>
+            </div>
+            <div id="form-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <form novalidate>
+                        <h2>Contact Us</h2>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+                        <div class="error-message" id="name-error"></div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="e.g. john@example.com" required>
+                        <div class="error-message" id="email-error"></div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Share with us your problems here..." required></textarea>
+                        <div class="error-message" id="message-error"></div>
+                        <button id="submit">Send Message</button>
+                        <div id ="success-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Car Rentals. All rights reserved.</p>
+    </footer>
+    <script src="scripts/forms.js"></script>
+    <script src="scripts/nav.js"></script>
+</body>
+</html>
